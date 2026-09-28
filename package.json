@@ -1,12 +1,15 @@
 {
   "name": "anime-promo-engine",
   "version": "1.0.0",
-  "description": "AI-Powered Anime Discovery, Reel Motion Studio, Publishing & Analytics Pipeline",
+  "private": true,
   "scripts": {
-    "start": "serve .",
-    "build": "echo 'Build complete'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": ["anime", "marketing", "reels", "ai", "vercel"],
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "next": "^14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
