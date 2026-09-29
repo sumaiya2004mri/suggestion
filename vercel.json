@@ -1,15 +1,3 @@
 {
-  "version": 2,
-  "name": "anime-promo-engine",
-  "cleanUrls": true,
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/anime_promo_engine.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "framework": "nextjs"
 }
